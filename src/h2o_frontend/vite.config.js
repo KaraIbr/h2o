@@ -1,4 +1,3 @@
-/// <reference types="vitest" />
 import { fileURLToPath, URL } from 'url';
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
@@ -30,6 +29,7 @@ export default defineConfig({
     react(),
     environment("all", { prefix: "CANISTER_" }),
     environment("all", { prefix: "DFX_" }),
+    // Puedes agregar más plugins aquí
   ],
   test: {
     environment: 'jsdom',
@@ -43,6 +43,8 @@ export default defineConfig({
           new URL("../declarations", import.meta.url)
         ),
       },
+      // Puedes agregar más alias aquí
     ],
   },
+  // Puedes agregar más configuraciones aquí
 });

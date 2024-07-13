@@ -14,7 +14,7 @@
       "type": "assets",
       "workspace": "h2o_frontend"
     },
-    "internet_identity": {
+    "internet-identity": {
       "candid": "https://github.com/dfinity/internet-identity/releases/latest/download/internet_identity.did",
       "frontend": {},
       "remote": {
