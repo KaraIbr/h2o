@@ -1,4 +1,4 @@
-# h2o
+# h2o_Hackaton_Colombia
 
 Welcome to your new h2o project and to the Internet Computer development community. 
 
